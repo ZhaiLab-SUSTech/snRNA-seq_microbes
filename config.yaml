@@ -1,0 +1,16 @@
+h5ad: '/public/home/lizw/home2/task/singlecell/singlecell_songyi/annotation/Annotation_v2.2_leiden0.6_merged_by_seurat_cca.h5ad'
+database: '/public/home/lizw/home2/task/singlecell/ref_dataset/GSEA_analysis/Ara_ALL_G1-G3.gmt'
+CPMfile: '/public/home/lizw/home2/task/singlecell/singlecell_songyi/diff_exp/version3/snakemake/sample_cpm.h5ad'
+out_dir: '/public/home/lizw/home2/task/singlecell/singlecell_songyi/diff_exp/version3/snakemake/out'
+script_dir: '/public/home/lizw/home2/task/singlecell/singlecell_songyi/diff_exp/version3/snakemake/scripts'
+cpm_b417_cluster: '/public/home/lizw/home2/task/singlecell/singlecell_songyi/merge/figures/ann_v2.2_seurat_cca/bar/B417-6h_leiden_merge.h5ad'
+cpm_gmi_cluster: '/public/home/lizw/home2/task/singlecell/singlecell_songyi/merge/figures/ann_v2.2_seurat_cca/bar/GMI-6h_leiden_merge.h5ad'
+cpm_bf_cluster: '/public/home/lizw/home2/task/singlecell/singlecell_songyi/merge/figures/ann_v2.2_seurat_cca/bar/BF-6h_leiden_merge.h5ad'
+cpmLIST: [0,3]
+mincellLIST: [0,3]
+pvalLIST: [0.05,1.00]
+qvalLIST: [0.05,1.00]
+logfcLIST: [1]
+sampleLIST: ['B417-6h','GMI-6h']
+directionLIST: ['Up','Down']
+clusterLIST: ['0','2','6','8','13','16','18','20','Not root','Meristematic zone','Pericycle','Procambium','Cortex','Endodermis','Hair cell','No hair cell','Phloem','Xylem']
